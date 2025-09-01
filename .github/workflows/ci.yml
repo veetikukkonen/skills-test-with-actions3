@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     # Step 1: Checkout the repository code
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
 
     # Step 2: Install and run markdown lint
     - name: Run markdown lint
